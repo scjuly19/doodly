@@ -1,0 +1,17 @@
+.popup-main{
+    height: 100px;
+    width: 300px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+label{
+    font-size: 12px;
+}
+

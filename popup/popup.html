@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Doodler</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup-main">
+      <h2>Choose your tools to doodle</h2>
+      <form action="" id="stroke-form">
+          <label for="stroke-color">Choose your stroke color </label>
+          <input type="color" id="stroke-color" /><br><br>
+          <label for="stroke-width">Choose your stroke width </label>
+          <input type="number" id="stroke-width" min="1" max="20" pattern="" /><br><br>
+        <button type="submit">Save</button><br><br>
+        <p>Press 'e' to clear doodle</p>
+
+      </form>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
